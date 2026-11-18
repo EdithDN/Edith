@@ -1,0 +1,26 @@
+body {
+	font-family: system-ui, sans-serif;
+	color: #0000FF;
+	line-height: 1.6;
+}
+
+h1 {
+	color: darkblue;
+}
+h2 {	color: blue:
+
+body2 {line-height: 0.5;
+}
+.favorieten {
+	display: flex;
+	gap: 1rem; 
+}
+.kaart {
+	padding: 1rem;
+	border: 30px solid #ddd;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}

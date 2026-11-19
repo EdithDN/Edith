@@ -1,4 +1,8 @@
-body {
+
+* {
+	box-sizing: border-box;
+}
+	body {
 	font-family: system-ui, sans-serif;
 	color: #0000FF;
 	line-height: 1.6;
@@ -19,7 +23,30 @@ h2 {	color: blue;
 	border: 30px solid #ddd;
 }
 
-img {
-  width: 300px;
-  height: auto;
+.kaartenrij {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
 }
+
+.kaart {
+	flex: 1 1 250px;
+	padding: 1rem;
+	border: 1px solid #d0d0d0;
+	border-radius: 6px;
+}
+.foto-rij {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+}
+
+.foto-rij img {
+  width: 100%;
+  aspect-ratio: 4 / 3; 
+  object-fit: cover;   
+  display: block;
+}
+
